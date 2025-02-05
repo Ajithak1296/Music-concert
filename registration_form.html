@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC-Registration Form</title>
+    <link rel="icon" href="images/icon.jpg">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="logo">
+                <img src="images/madurailogo.png" alt="">
+            </div>
+            <div class="tittle">
+                <h1>Music Concert's in Madurai</h1>
+            </div>
+            <div class="menus">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bars"></i>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <section>
+        <div class="tittle">
+            <h2>Registration Form</h2>
+        </div>
+        <div class="content">
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="Name">Name :</label></td>
+                        <td><input type="text" placeholder="Enter Your Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Contact">Contact :</label></td>
+                        <td><input type="number" placeholder="Enter Your Number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="City">City :</label></td>
+                        <td><input type="text" placeholder="Enter Your City"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="E-mail">E-mail :</label></td>
+                        <td><input type="email" placeholder="Enter Your E-mail" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Ticket">Ticket :</label></td>
+                        <td><select name="Ticket" id="" required>
+                            <option value="">Select Ticket</option>
+                            <option value="VIP">VIP</option>
+                            <option value="Platinum">PLATINUM</option>
+                            <option value="Gold">GOLD</option>
+                            <option value="Sliver">SILVER</option>
+                            <option value="Bronze">BRONZE</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Number of Tickets:</label></td>
+                        <td><input type="number" placeholder="No of Tickets" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Total">Total Amount :</label></td>
+                        <td><input type="number" placeholder="Total Amount" required disabled ></td>
+                    </tr>
+                </table>
+                <div class="checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I Agree to the Terms of use</label>
+                </div>
+                <div class="btn">
+                    <button type="submit" accesskey="">BUY NOW</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-details">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>No.236, Ak Tower 2nd floor</li>
+                    <li>Iyer bunglow</li>
+                    <li>Madurai - 625007</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Get In Touch:</h3>
+                <ul>
+                    <li>E-mail: maduraimc@gmail.com</li>
+                    <li>Phone: 0452-123654</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links:</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>T & C</h3>
+                <ul>
+                    <li><a href="terms_and_condition.html">Terms & Conditions</a></li>
+                    <li><a href="p_p.html">Privacy & Policy</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div class="footer-bottom">
+            <p>© 2025 Music Concert. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
