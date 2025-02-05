@@ -71,7 +71,7 @@ section h1{
 }
 .footer-content ul li a{
     text-decoration: none;
-    /* color: black; */
+    color: black;
 }
 .footer-bottom p{
     padding: 10px;
